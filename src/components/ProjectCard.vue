@@ -26,7 +26,10 @@
       </div>
     </div>
     <div class="info-container">
-      <h3>{{ project.title }}</h3>
+      <h3>
+        {{ project.title }}
+        <span class="project-year">{{ project.year }}</span>
+      </h3>
 
       <p class="project-info">{{ project.info }}</p>
       <div>
@@ -360,5 +363,9 @@ $purple: #eee;
       font-size: 0.8em;
     }
   }
+}
+span.project-year {
+  font-weight: 500;
+  font-style: italic;
 }
 </style>

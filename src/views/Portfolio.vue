@@ -171,7 +171,7 @@ export default {
         },
         {
           title: "The Vikings - turn-based board game",
-          year: 20,
+          year: 2018,
           info:
             "A two player turn-based board game with a medieval Vikings theme built using plain JavaScript and jQuery for animations ",
           icons: ["Bootstrap", "JavaScript", "jQuery"],
