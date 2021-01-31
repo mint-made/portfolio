@@ -342,6 +342,10 @@ $purple: #eee;
     color: $purple;
   }
 }
+span.project-year {
+  font-weight: 500;
+  font-style: italic;
+}
 // Media Queries
 @media only screen and (max-width: 500px) {
   .project-card {
@@ -358,14 +362,21 @@ $purple: #eee;
   .project-card {
     .tech-container {
       font-size: 0.75em;
+      min-width: 100px;
     }
     .info-container {
+      padding: 5px;
       font-size: 0.8em;
+      p {
+        margin: 5px 0px;
+      }
     }
   }
-}
-span.project-year {
-  font-weight: 500;
-  font-style: italic;
+  .btn-project {
+    padding: 0px 6px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    margin: 1px;
+  }
 }
 </style>
