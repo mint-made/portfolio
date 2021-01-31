@@ -1,25 +1,11 @@
-# portfolio-v2.0
+# Portfolio
 
-## Project setup
-```
-yarn install
-```
+### Project Overview
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+This project is a portfolio page to showcase and link all of the work and projects I have completed into one space, allowing people to get an overview of my work and easily navigate between the different projects.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Deploys the project to mint-made.com
 
-### Lints and fixes files
 ```
-yarn lint
+./deploy.sh
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# portfolio
