@@ -35,7 +35,7 @@
           v-if="project.url.repo"
           class="btn btn-project"
           target="_blank"
-          >Codebase</a
+          >Code</a
         >
         <a
           :href="project.url.site"
@@ -60,194 +60,194 @@ export default {
       techInfo: [
         {
           name: "VueJS",
-          url: "https://vuejs.org/"
+          url: "https://vuejs.org/",
         },
         {
           name: "SASS",
-          url: "https://sass-lang.com/"
+          url: "https://sass-lang.com/",
         },
         {
           name: "CSS",
-          url: "https://www.w3.org/TR/CSS/"
+          url: "https://www.w3.org/TR/CSS/",
         },
         {
           name: "JavaScript",
-          url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         },
         {
           name: "HTML",
-          url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+          url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
         },
         {
           name: "Bootstrap",
-          url: "https://getbootstrap.com/"
+          url: "https://getbootstrap.com/",
         },
         {
           name: "webpack",
-          url: "https://webpack.js.org/"
+          url: "https://webpack.js.org/",
         },
         {
           name: "Bash",
-          url: "https://www.gnu.org/software/bash/"
+          url: "https://www.gnu.org/software/bash/",
         },
         {
           name: "Vuex",
-          url: "https://vuex.vuejs.org/"
+          url: "https://vuex.vuejs.org/",
         },
         {
           name: "Vue Router",
-          url: "https://router.vuejs.org/"
+          url: "https://router.vuejs.org/",
         },
         {
           name: "TMDb API",
-          url: "https://developers.themoviedb.org/3"
+          url: "https://developers.themoviedb.org/3",
         },
         {
           name: "Google Maps API",
           url:
-            "https://developers.google.com/maps/documentation/javascript/overview"
+            "https://developers.google.com/maps/documentation/javascript/overview",
         },
         {
           name: "Places API",
-          url: "https://developers.google.com/places/web-service/overview"
+          url: "https://developers.google.com/places/web-service/overview",
         },
         {
           name: "Geolocation API",
           url:
-            "https://developers.google.com/maps/documentation/geolocation/overview"
+            "https://developers.google.com/maps/documentation/geolocation/overview",
         },
         {
           name: "Bash",
-          url: "https://www.gnu.org/software/bash/"
+          url: "https://www.gnu.org/software/bash/",
         },
         {
           name: "Shell Script",
-          url: "https://www.shellscript.sh/"
+          url: "https://www.shellscript.sh/",
         },
         {
           name: "git",
-          url: "https://git-scm.com/"
+          url: "https://git-scm.com/",
         },
         {
           name: "documentation.js",
-          url: "https://documentation.js.org/"
+          url: "https://documentation.js.org/",
         },
         {
           name: "Jasmine",
-          url: "https://jasmine.github.io/"
+          url: "https://jasmine.github.io/",
         },
         {
           name: "UML Diagrams",
-          url: "https://www.uml-diagrams.org/uml-25-diagrams.html"
+          url: "https://www.uml-diagrams.org/uml-25-diagrams.html",
         },
         {
           name: "MySQL",
-          url: "https://dev.mysql.com/"
+          url: "https://dev.mysql.com/",
         },
         {
           name: "jQuery",
-          url: "https://jquery.com/"
+          url: "https://jquery.com/",
         },
         {
           name: "Firebase",
-          url: "https://firebase.google.com/"
+          url: "https://firebase.google.com/",
         },
         {
           name: "Firebase Auth",
-          url: "https://firebase.google.com/docs/auth"
+          url: "https://firebase.google.com/docs/auth",
         },
         {
           name: "SVG",
-          url: "https://www.w3.org/Graphics/SVG/"
+          url: "https://www.w3.org/Graphics/SVG/",
         },
         {
           name: "GSAP",
-          url: "https://greensock.com/gsap/"
+          url: "https://greensock.com/gsap/",
         },
         {
           name: "Bezier curves",
-          url: "https://javascript.info/bezier-curve"
+          url: "https://javascript.info/bezier-curve",
         },
         {
           name: "Heroku",
-          url: "https://www.heroku.com/"
+          url: "https://www.heroku.com/",
         },
         {
           name: "NodeJS",
-          url: "https://nodejs.org"
+          url: "https://nodejs.org",
         },
         {
           name: "Express",
-          url: "https://expressjs.com/"
+          url: "https://expressjs.com/",
         },
         {
           name: "Handlebars",
-          url: "https://handlebarsjs.com/"
+          url: "https://handlebarsjs.com/",
         },
         {
           name: "OpenWeather API",
-          url: "https://openweathermap.org/api"
+          url: "https://openweathermap.org/api",
         },
         {
           name: "mapbox API",
-          url: "https://docs.mapbox.com/api/overview/"
+          url: "https://docs.mapbox.com/api/overview/",
         },
         {
           name: "mongoDB",
-          url: "https://www.mongodb.com/"
+          url: "https://www.mongodb.com/",
         },
         {
           name: "Jest",
-          url: "https://jestjs.io/"
+          url: "https://jestjs.io/",
         },
         {
           name: "bcrypt",
-          url: "https://www.npmjs.com/package/bcrypt"
+          url: "https://www.npmjs.com/package/bcrypt",
         },
         {
           name: "JWT",
-          url: "https://jwt.io/"
+          url: "https://jwt.io/",
         },
         {
           name: "mongoose",
-          url: "https://mongoosejs.com/"
+          url: "https://mongoosejs.com/",
         },
         {
           name: "REST API",
-          url: "https://restfulapi.net/"
+          url: "https://restfulapi.net/",
         },
         {
           name: "WordPress",
-          url: "https://wordpress.org/"
+          url: "https://wordpress.org/",
         },
         {
           name: "stripe",
-          url: "https://stripe.com/gb"
+          url: "https://stripe.com/gb",
         },
         {
           name: "WooCommerce",
-          url: "https://woocommerce.com/"
-        }
-      ]
+          url: "https://woocommerce.com/",
+        },
+      ],
     };
   },
   methods: {
     getBgColor(techName) {
-      const tech = this.techInfo.find(item => item.name === techName);
+      const tech = this.techInfo.find((item) => item.name === techName);
       if (tech === undefined) {
         return "white";
       }
       return tech.bgColor;
     },
     getUrl(techName) {
-      const tech = this.techInfo.find(item => item.name === techName);
+      const tech = this.techInfo.find((item) => item.name === techName);
       if (tech === undefined) {
         return "";
       }
       return tech.url;
     },
     getColor(techName) {
-      const tech = this.techInfo.find(item => item.name === techName);
+      const tech = this.techInfo.find((item) => item.name === techName);
       if (tech === undefined) {
         return "black";
       }
@@ -257,8 +257,8 @@ export default {
       const url = "../assets/icons/" + techName.toLowerCase() + ".svg";
       console.log(url);
       return url;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -277,7 +277,7 @@ $purple: #eee;
   color: #444444;
   background-color: #eee;
   .tech-container {
-    padding: 10px;
+    padding: 5px;
     display: flex;
     min-width: 140px;
     flex-direction: column;
@@ -337,6 +337,28 @@ $purple: #eee;
   &:hover {
     background-color: $steel;
     color: $purple;
+  }
+}
+// Media Queries
+@media only screen and (max-width: 500px) {
+  .project-card {
+    .tech-container {
+      font-size: 0.9em;
+      min-width: 120px;
+    }
+    .info-container {
+      font-size: 0.9em;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .project-card {
+    .tech-container {
+      font-size: 0.75em;
+    }
+    .info-container {
+      font-size: 0.8em;
+    }
   }
 }
 </style>

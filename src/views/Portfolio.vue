@@ -14,13 +14,13 @@ import gsap from "gsap";
 export default {
   name: "App",
   components: {
-    ProjectCard
+    ProjectCard,
   },
   data() {
     return {
       show: {
         landingMessage: true,
-        myWork: false
+        myWork: false,
       },
       projects: [
         {
@@ -32,8 +32,8 @@ export default {
           icons: ["SVG", "GSAP", "JavaScript", "HTML"],
           url: {
             site: "https://mint-made.com/blob-generator/",
-            repo: "https://github.com/mint-made/blob-generator"
-          }
+            repo: "https://github.com/mint-made/blob-generator",
+          },
         },
         {
           title: "Technology Myers-Briggs - Questionnaire",
@@ -44,8 +44,8 @@ export default {
           icons: ["VueJS", "Firebase", "JavaScript", "SASS"],
           url: {
             site: "https://mint-made.com/tmb",
-            repo: "https://github.com/mint-made/tmb"
-          }
+            repo: "https://github.com/mint-made/tmb",
+          },
         },
         {
           title: "Pippa & Paper",
@@ -55,8 +55,8 @@ export default {
           tech: ["WordPress"],
           icons: ["WordPress", "stripe", "WooCommerce"],
           url: {
-            site: "https://www.pippaandpaper.com/"
-          }
+            site: "https://www.pippaandpaper.com/",
+          },
         },
         {
           title: "A Node.js Task Manager",
@@ -70,12 +70,12 @@ export default {
             "mongoose",
             "bcrypt",
             "JWT",
-            "Jest"
+            "Jest",
           ],
           icons: ["NodeJS", "mongoDB", "Jest"],
           url: {
-            repo: "https://github.com/mint-made/task-manager"
-          }
+            repo: "https://github.com/mint-made/task-manager",
+          },
         },
         {
           title: "Restaurant Review",
@@ -86,8 +86,8 @@ export default {
           tech: ["Google Maps API", "Places API", "Geolocation API"],
           url: {
             site: "https://mint-made.com/restaurant-review/",
-            repo: "https://github.com/mint-made/restaurant-review"
-          }
+            repo: "https://github.com/mint-made/restaurant-review",
+          },
         },
         {
           title: "Discover Film",
@@ -98,8 +98,8 @@ export default {
           icons: ["VueJS", "SASS", "JavaScript", "HTML"],
           url: {
             site: "https://mint-made.com/discover-film",
-            repo: "https://github.com/mint-made/discover-film"
-          }
+            repo: "https://github.com/mint-made/discover-film",
+          },
         },
         {
           title: "A Node.js Weather App",
@@ -112,13 +112,13 @@ export default {
             "Heroku",
             "Handlebars",
             "mapbox API",
-            "OpenWeather API"
+            "OpenWeather API",
           ],
           icons: ["NodeJS", "Heroku", "Handlebars"],
           url: {
             site: "https://mint-weather-app.herokuapp.com",
-            repo: "https://github.com/mint-made/weather-app"
-          }
+            repo: "https://github.com/mint-made/weather-app",
+          },
         },
         {
           title: "VueJS Deploy to gh-pages",
@@ -130,8 +130,8 @@ export default {
 
           url: {
             site: false,
-            repo: "https://github.com/mint-made/vuejs-deploy-ghpages"
-          }
+            repo: "https://github.com/mint-made/vuejs-deploy-ghpages",
+          },
         },
         {
           title: "Watch it Outside",
@@ -142,8 +142,8 @@ export default {
           tech: ["Bootstrap"],
           url: {
             site: "https://mint-made.com/watch-it-outside/",
-            repo: "https://github.com/mint-made/watch-it-outside"
-          }
+            repo: "https://github.com/mint-made/watch-it-outside",
+          },
         },
         {
           title: "Enhance an Existing Project",
@@ -154,8 +154,8 @@ export default {
           tech: ["Jasmine", "documentation.js"],
           url: {
             site: "https://mint-made.com/enhance-an-existing-project/",
-            repo: "https://github.com/mint-made/enhance-an-existing-project"
-          }
+            repo: "https://github.com/mint-made/enhance-an-existing-project",
+          },
         },
         {
           title: "Food Delivery Database",
@@ -166,11 +166,11 @@ export default {
           tech: ["MySQL", "UML Diagrams"],
           url: {
             site: false,
-            repo: "https://github.com/mint-made/food-delivery-database"
-          }
+            repo: "https://github.com/mint-made/food-delivery-database",
+          },
         },
         {
-          title: "The Vikings - A turn-based JavaScript board game",
+          title: "The Vikings - turn-based board game",
           year: 20,
           info:
             "A two player turn-based board game with a medieval Vikings theme built using plain JavaScript and jQuery for animations ",
@@ -178,24 +178,23 @@ export default {
           tech: ["Bootstrap", "jQuery"],
           url: {
             site: "https://mint-made.com/the-vikings/",
-            repo: "https://github.com/mint-made/the-vikings"
-          }
-        }
-      ]
+            repo: "https://github.com/mint-made/the-vikings",
+          },
+        },
+      ],
     };
   },
   mounted() {
     gsap.to("#project-container", {
       opacity: 1,
-      duration: 1
+      duration: 1,
     });
-  }
+  },
 };
 </script>
 
 <style>
 #project-container {
-  padding: 70px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
