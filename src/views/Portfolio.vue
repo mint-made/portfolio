@@ -195,6 +195,7 @@ export default {
 
 <style>
 #project-container {
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

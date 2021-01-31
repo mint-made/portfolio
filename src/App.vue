@@ -3,12 +3,15 @@
     <div id="nav">
       <a href="/"> <div class="logo">Mint-Made</div></a>
       <div id="icon-container">
-        <img src="./assets/icons/github.svg" class="profile-icon-link" alt="" />
-        <img
-          src="./assets/icons/linkedin.svg"
-          class="profile-icon-link"
-          alt=""
-        />
+        <a href="https://github.com/mint-made" target="_blank">
+          <img src="./assets/icons/github.svg" class="profile-icon-link" alt=""
+        /></a>
+        <a href="https://uk.linkedin.com/in/front-end-dev1" target="_blank">
+          <img
+            src="./assets/icons/linkedin.svg"
+            class="profile-icon-link"
+            alt=""
+        /></a>
       </div>
     </div>
     <router-view />

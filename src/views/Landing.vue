@@ -27,7 +27,7 @@ export default {
       blobVertices: 5,
       blobVisible: true,
       rotationLoop: "",
-      morphLoop: ""
+      morphLoop: "",
     };
   },
   methods: {
@@ -38,11 +38,11 @@ export default {
         opacity: 0,
         rotation: 270,
         duration: 0.5,
-        transformOrigin: "center"
+        transformOrigin: "center",
       });
       gsap.to("#heading-container", {
         opacity: 0,
-        duration: 0.5
+        duration: 0.5,
       });
       setTimeout(() => {
         this.$router.push("portfolio");
@@ -55,10 +55,10 @@ export default {
       // init GSAP rotation loop
       this.rotationLoop = gsap.to("#blob", {
         rotation: 360,
-        duration: 15,
+        duration: 25,
         ease: "none",
         transformOrigin: "center",
-        repeat: -1
+        repeat: -1,
       });
     },
     newBlobMorph(n = this.blobVertices) {
@@ -66,13 +66,13 @@ export default {
         duration: 2.5,
         ease: "none",
         attr: {
-          d: this.newBlobPath(n)
+          d: this.newBlobPath(n),
         },
         onComplete: () => {
           if (this.morphing) {
             this.newBlobMorph();
           }
-        }
+        },
       });
     },
     newBlobPath(n) {
@@ -90,7 +90,7 @@ export default {
         const point = {
           origin: {},
           bezier1: {},
-          bezier2: {}
+          bezier2: {},
         };
         const MIN_RADIUS = this.rndNoBetween(60, 85);
         const MAX_RADIUS = MIN_RADIUS + 15;
@@ -152,7 +152,7 @@ export default {
       }
       pathArray.push("Z");
       return pathArray.join(" ");
-    }
+    },
   },
   mounted() {
     console.log("created", this.morphing);
@@ -160,7 +160,7 @@ export default {
       .querySelector("#blob")
       .setAttributeNS(null, "d", this.newBlobPath(this.blobVertices));
     this.initBlobAnimationLoops();
-  }
+  },
 };
 </script>
 
