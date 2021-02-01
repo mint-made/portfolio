@@ -46,7 +46,7 @@ export default {
           ],
         },
         {
-          title: "Technology Myers-Briggs - Questionnaire",
+          title: "Myers-Briggs Tech Research Portal",
           year: 2020,
           info:
             "A secure questionnaire built for a client to collect data on a business's tech strategy, so they can analyse how to help the business attain the skill set it needs",

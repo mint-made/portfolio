@@ -361,7 +361,7 @@ span.project-year {
     }
     .info-container {
       padding: 5px;
-      font-size: 0.8em;
+      font-size: 0.85em;
       p {
         margin: 5px 0px;
       }
@@ -370,6 +370,24 @@ span.project-year {
   .btn-project {
     padding: 0px 6px;
     font-size: 1.2em;
+    border-radius: 20px;
+    margin: 1px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .project-card {
+    .tech-container {
+      font-size: 0.7em;
+      min-width: 95px;
+    }
+    .info-container {
+      padding: 3px;
+      font-size: 0.8em;
+    }
+  }
+  .btn-project {
+    padding: 0px 4px;
+    font-size: 1em;
     border-radius: 20px;
     margin: 1px;
   }
