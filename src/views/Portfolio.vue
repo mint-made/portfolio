@@ -34,6 +34,16 @@ export default {
             site: "https://mint-made.com/blob-generator/",
             repo: "https://github.com/mint-made/blob-generator",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/blob-generator",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/blob-generator/",
+            },
+          ],
         },
         {
           title: "Technology Myers-Briggs - Questionnaire",
@@ -46,6 +56,16 @@ export default {
             site: "https://mint-made.com/tmb",
             repo: "https://github.com/mint-made/tmb",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/tmb",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/tmb",
+            },
+          ],
         },
         {
           title: "Pippa & Paper",
@@ -57,6 +77,12 @@ export default {
           url: {
             site: "https://www.pippaandpaper.com/",
           },
+          links: [
+            {
+              name: "Site",
+              url: "https://www.pippaandpaper.com/",
+            },
+          ],
         },
         {
           title: "A Node.js Task Manager",
@@ -76,6 +102,12 @@ export default {
           url: {
             repo: "https://github.com/mint-made/task-manager",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/task-manager",
+            },
+          ],
         },
         {
           title: "Restaurant Review",
@@ -88,6 +120,16 @@ export default {
             site: "https://mint-made.com/restaurant-review/",
             repo: "https://github.com/mint-made/restaurant-review",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/restaurant-review",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/restaurant-review/",
+            },
+          ],
         },
         {
           title: "Discover Film",
@@ -100,6 +142,16 @@ export default {
             site: "https://mint-made.com/discover-film",
             repo: "https://github.com/mint-made/discover-film",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/discover-film",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/discover-film",
+            },
+          ],
         },
         {
           title: "A Node.js Weather App",
@@ -119,12 +171,22 @@ export default {
             site: "https://mint-weather-app.herokuapp.com",
             repo: "https://github.com/mint-made/weather-app",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/weather-app",
+            },
+            {
+              name: "Site",
+              url: "https://mint-weather-app.herokuapp.com",
+            },
+          ],
         },
         {
           title: "VueJS Deploy to gh-pages",
           year: 2020,
           info:
-            " A shell script to automate the creation and deployment of a new VueJS project, with the project automatically hosted on Github Pages",
+            "A shell script to automate the creation and deployment of a new VueJS project, with the project automatically hosted on Github Pages",
           icons: ["Bash", "git"],
           tech: ["Bash", "git", "Shell Script"],
 
@@ -132,18 +194,12 @@ export default {
             site: false,
             repo: "https://github.com/mint-made/vuejs-deploy-ghpages",
           },
-        },
-        {
-          title: "Watch it Outside",
-          year: 2019,
-          info:
-            "A film festival website built to technical specification using Bootstrap for a mock client",
-          icons: ["Bootstrap", "HTML", "SASS"],
-          tech: ["Bootstrap"],
-          url: {
-            site: "https://mint-made.com/watch-it-outside/",
-            repo: "https://github.com/mint-made/watch-it-outside",
-          },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/vuejs-deploy-ghpages",
+            },
+          ],
         },
         {
           title: "Enhance an Existing Project",
@@ -156,6 +212,16 @@ export default {
             site: "https://mint-made.com/enhance-an-existing-project/",
             repo: "https://github.com/mint-made/enhance-an-existing-project",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/enhance-an-existing-project",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/enhance-an-existing-project/",
+            },
+          ],
         },
         {
           title: "Food Delivery Database",
@@ -168,6 +234,39 @@ export default {
             site: false,
             repo: "https://github.com/mint-made/food-delivery-database",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/food-delivery-database",
+            },
+            {
+              name: "UML Diagram",
+              url:
+                "https://github.com/mint-made/food-delivery-database/blob/master/UML-diagram.pdf",
+            },
+          ],
+        },
+        {
+          title: "Watch it Outside",
+          year: 2019,
+          info:
+            "A film festival website built to technical specification using Bootstrap for a mock client",
+          icons: ["Bootstrap", "HTML", "SASS"],
+          tech: ["Bootstrap"],
+          url: {
+            site: "https://mint-made.com/watch-it-outside/",
+            repo: "https://github.com/mint-made/watch-it-outside",
+          },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/watch-it-outside",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/watch-it-outside/",
+            },
+          ],
         },
         {
           title: "The Vikings - turn-based board game",
@@ -180,6 +279,16 @@ export default {
             site: "https://mint-made.com/the-vikings/",
             repo: "https://github.com/mint-made/the-vikings",
           },
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/the-vikings",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/the-vikings/",
+            },
+          ],
         },
       ],
     };

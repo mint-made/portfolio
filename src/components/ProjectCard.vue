@@ -32,20 +32,15 @@
       </h3>
 
       <p class="project-info">{{ project.info }}</p>
+
       <div>
         <a
-          :href="project.url.repo"
-          v-if="project.url.repo"
+          v-for="link in project.links"
+          v-bind:key="project.title + '-' + link.name"
+          :href="link.url"
           class="btn btn-project"
           target="_blank"
-          >Code</a
-        >
-        <a
-          :href="project.url.site"
-          v-if="project.url.site"
-          class="btn btn-project"
-          target="_blank"
-          >Site</a
+          >{{ link.name }}</a
         >
       </div>
     </div>
