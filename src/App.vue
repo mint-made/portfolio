@@ -88,13 +88,13 @@ $steel: #eeeeee;
   font-size: 1.5em;
   a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
     .logo {
       padding: 3px 5px 0px 5px;
       margin-left: 20px;
       background: #d5d5d5;
       color: #444444;
-      display: flex;
-      align-items: center;
       border-radius: 3px;
       cursor: pointer;
       text-decoration: none;
@@ -107,8 +107,9 @@ $steel: #eeeeee;
   #icon-container {
     padding-right: 20px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     .profile-icon-link {
+      margin: auto;
       width: 35px;
       height: 35px;
       padding: 5px;
