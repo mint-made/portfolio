@@ -226,6 +226,14 @@ export default {
           name: "WooCommerce",
           url: "https://woocommerce.com/",
         },
+        {
+          name: "React",
+          url: "https://reactjs.org/",
+        },
+        {
+          name: "React Hooks",
+          url: "https://reactjs.org/docs/hooks-overview.html",
+        },
       ],
     };
   },

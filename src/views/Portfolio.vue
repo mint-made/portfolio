@@ -24,7 +24,25 @@ export default {
       },
       projects: [
         {
-          title: "Blob Generator ",
+          title: "Flashcards: Learning React",
+          year: 2021,
+          info:
+            "A Flashcard App built with React to help users learn about the different aspects of React",
+          tech: ["React", "React Hooks"],
+          icons: ["React", "JavaScript"],
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/flashcards",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/flashcards",
+            },
+          ],
+        },
+        {
+          title: "Blob Generator",
           year: 2021,
           info:
             "A web app to randomly generate SVG blobs for users, displaying the code and colored markers to help the user understand the Bezier curves that make up the blobs",

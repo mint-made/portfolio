@@ -3,14 +3,21 @@
     <div id="nav">
       <a href="/"> <div class="logo">Mint-Made</div></a>
       <div id="icon-container">
-        <a href="https://github.com/mint-made" target="_blank">
-          <img src="./assets/icons/github.svg" class="profile-icon-link" alt=""
+        <a href="https://github.com/mint-made" target="_blank" rel="noreferrer">
+          <img
+            src="./assets/icons/github.svg"
+            class="profile-icon-link"
+            alt="github-profile-icon"
         /></a>
-        <a href="https://uk.linkedin.com/in/front-end-dev1" target="_blank">
+        <a
+          href="https://uk.linkedin.com/in/front-end-dev1"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="./assets/icons/linkedin.svg"
             class="profile-icon-link"
-            alt=""
+            alt="linkedin-profile-icon"
         /></a>
       </div>
     </div>
