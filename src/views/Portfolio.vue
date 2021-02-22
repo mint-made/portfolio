@@ -45,7 +45,7 @@ export default {
           title: "Basic React App",
           year: 2021,
           info:
-            "An built to learn about React, Hooks, Route Handling and API requests in React",
+            "An built to learn about React, React Hooks, Route Handling and API requests in React",
           tech: ["React", "React Hooks", "Route Handling", "Translate API"],
           icons: ["React", "JavaScript", "Translate API"],
           links: [
