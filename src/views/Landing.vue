@@ -33,7 +33,6 @@ export default {
   methods: {
     viewPorjectsClick() {
       this.morphing = false;
-      console.log("View Projects");
       gsap.to("#blob", {
         opacity: 0,
         rotation: 270,
@@ -155,7 +154,6 @@ export default {
     },
   },
   mounted() {
-    console.log("created", this.morphing);
     document
       .querySelector("#blob")
       .setAttributeNS(null, "d", this.newBlobPath(this.blobVertices));

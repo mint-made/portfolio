@@ -24,7 +24,7 @@ export default {
       },
       projects: [
         {
-          title: "Flashcards: Learning React",
+          title: "React Flashcards App",
           year: 2021,
           info:
             "A Flashcard App built with React to help users learn about the different aspects of React",
@@ -38,6 +38,24 @@ export default {
             {
               name: "Site",
               url: "https://mint-made.com/flashcards",
+            },
+          ],
+        },
+        {
+          title: "Basic React App",
+          year: 2021,
+          info:
+            "An built to learn about React, Hooks, Route Handling and API requests in React",
+          tech: ["React", "React Hooks", "Route Handling", "Translate API"],
+          icons: ["React", "JavaScript", "Translate API"],
+          links: [
+            {
+              name: "Code",
+              url: "https://github.com/mint-made/basic-react-app",
+            },
+            {
+              name: "Site",
+              url: "https://mint-made.com/basic-react-app",
             },
           ],
         },

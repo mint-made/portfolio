@@ -234,6 +234,15 @@ export default {
           name: "React Hooks",
           url: "https://reactjs.org/docs/hooks-overview.html",
         },
+        {
+          name: "Translate API",
+          url: "https://cloud.google.com/translate",
+        },
+        {
+          name: "Route Handling",
+          url:
+            "https://ncoughlin.com/posts/react-navigation-without-react-router/",
+        },
       ],
     };
   },
