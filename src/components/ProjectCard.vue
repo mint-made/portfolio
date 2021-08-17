@@ -102,8 +102,7 @@ export default {
         },
         {
           name: "Google Maps API",
-          url:
-            "https://developers.google.com/maps/documentation/javascript/overview",
+          url: "https://developers.google.com/maps/documentation/javascript/overview",
         },
         {
           name: "Places API",
@@ -111,8 +110,7 @@ export default {
         },
         {
           name: "Geolocation API",
-          url:
-            "https://developers.google.com/maps/documentation/geolocation/overview",
+          url: "https://developers.google.com/maps/documentation/geolocation/overview",
         },
         {
           name: "Bash",
@@ -146,6 +144,9 @@ export default {
           name: "jQuery",
           url: "https://jquery.com/",
         },
+        { name: "AWS S3", url: "https://aws.amazon.com/s3/" },
+        { name: "Redux", url: "https://redux.js.org/" },
+        { name: "Redux", url: "https://redux.js.org/" },
         {
           name: "Firebase",
           url: "https://firebase.google.com/",
@@ -191,7 +192,7 @@ export default {
           url: "https://docs.mapbox.com/api/overview/",
         },
         {
-          name: "mongoDB",
+          name: "MongoDB",
           url: "https://www.mongodb.com/",
         },
         {
@@ -205,6 +206,10 @@ export default {
         {
           name: "JWT",
           url: "https://jwt.io/",
+        },
+        {
+          name: "PayPal",
+          url: "https://developer.paypal.com",
         },
         {
           name: "mongoose",
@@ -240,8 +245,11 @@ export default {
         },
         {
           name: "Route Handling",
-          url:
-            "https://ncoughlin.com/posts/react-navigation-without-react-router/",
+          url: "https://ncoughlin.com/posts/react-navigation-without-react-router/",
+        },
+        {
+          name: "Semantic UI",
+          url: "https://semantic-ui.com/",
         },
       ],
     };

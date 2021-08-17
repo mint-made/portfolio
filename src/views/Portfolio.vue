@@ -24,46 +24,61 @@ export default {
       },
       projects: [
         {
-          title: "React Flashcards App",
+          title: "Green Metals",
           year: 2021,
-          info:
-            "A Flashcard App built with React to help users learn about the different aspects of React",
-          tech: ["React", "React Hooks"],
-          icons: ["React", "JavaScript"],
+          info: "An App helping users analyse companies involved in producing critical metals for the zero-carbon future. Users can login and compare companies by metrics such as market capitalizations.",
+          tech: [
+            "React",
+            "Redux",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "AWS S3",
+            "JWT",
+            "REST API",
+          ],
+          icons: ["React", "Nodejs", "Redux", "MongoDB"],
           links: [
             {
               name: "Code",
-              url: "https://github.com/mint-made/flashcards",
+              url: "https://github.com/mint-made/green-metals",
             },
             {
               name: "Site",
-              url: "https://mint-made.com/flashcards",
+              url: "https://greenmetals.herokuapp.com/",
             },
           ],
         },
         {
-          title: "Basic React App",
+          title: "Pippa & Paper v2.0",
           year: 2021,
-          info:
-            "An built to learn about React, React Hooks, Route Handling and API requests in React",
-          tech: ["React", "React Hooks", "Route Handling", "Translate API"],
-          icons: ["React", "JavaScript", "Translate API"],
+          info: "A responsive eCommerce site, built from scratch using the MERN stack and AWS S3, with a fully customizable checkout process complete with PayPal payment integration.",
+          tech: [
+            "React",
+            "Redux",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "AWS S3",
+            "PayPal",
+            "JWT",
+          ],
+          icons: ["React", "Nodejs", "MongoDB", "PayPal"],
           links: [
             {
               name: "Code",
-              url: "https://github.com/mint-made/basic-react-app",
+              url: "https://github.com/mint-made/pippaandpaper",
             },
             {
               name: "Site",
-              url: "https://mint-made.com/basic-react-app",
+              url: "https://pippaandpaper.herokuapp.com/",
             },
           ],
         },
         {
           title: "Blob Generator",
           year: 2021,
-          info:
-            "A web app to randomly generate SVG blobs for users, displaying the code and colored markers to help the user understand the Bezier curves that make up the blobs",
+          info: "A web app to randomly generate SVG blobs for users, displaying the code and colored markers to help the user understand the Bezier curves that make up the blobs",
           tech: ["SVG", "GSAP", "Bezier curves"],
           icons: ["SVG", "GSAP", "JavaScript", "HTML"],
           url: {
@@ -84,8 +99,7 @@ export default {
         {
           title: "Myers-Briggs Tech Research Portal",
           year: 2020,
-          info:
-            "A secure questionnaire built for a client to collect data on a business's tech strategy, so they can analyse how to help the business attain the skill set it needs",
+          info: "A secure questionnaire built for a client to collect data on a business's tech strategy, so they can analyse how to help the business attain the skill set it needs",
           tech: ["Firebase", "Firebase Auth", "Vuex"],
           icons: ["VueJS", "Firebase", "JavaScript", "SASS"],
           url: {
@@ -106,8 +120,7 @@ export default {
         {
           title: "Pippa & Paper",
           year: 2020,
-          info:
-            "An responsive eCommerce website built for a client, utilizing WooCommerce and Stripe as a product/payment solution.",
+          info: "A responsive eCommerce website built for a client, utilizing WooCommerce and Stripe as a product/payment solution.",
           tech: ["WordPress"],
           icons: ["WordPress", "stripe", "WooCommerce"],
           url: {
@@ -123,8 +136,7 @@ export default {
         {
           title: "A Node.js Task Manager",
           year: 2020,
-          info:
-            "A Node.js CRUD app for users to login and manage tasks. The app uses bcrypt to securely hash passwords and JWTs for user authorization",
+          info: "A Node.js CRUD app for users to login and manage tasks. The app uses bcrypt to securely hash passwords and JWTs for user authorization",
           tech: [
             "NodeJS",
             "REST API",
@@ -148,8 +160,7 @@ export default {
         {
           title: "Restaurant Review",
           year: 2019,
-          info:
-            "An app to discover new restaurants, quickly find reviews and filter restaurants based on their average ratings. Built using data from Google Maps and Places API",
+          info: "An app to discover new restaurants, quickly find reviews and filter restaurants based on their average ratings. Built using data from Google Maps and Places API",
           icons: ["webpack", "JavaScript", "HTML", "Google Maps API"],
           tech: ["Google Maps API", "Places API", "Geolocation API"],
           url: {
@@ -170,8 +181,7 @@ export default {
         {
           title: "Discover Film",
           year: 2020,
-          info:
-            "A VueJS app helping users to efficiently discover films and help decide on a film to watch. Built using data from TMDb API",
+          info: "A VueJS app helping users to efficiently discover films and help decide on a film to watch. Built using data from TMDb API",
           tech: ["Vuex", "Vue Router", "TMDb API"],
           icons: ["VueJS", "SASS", "JavaScript", "HTML"],
           url: {
@@ -192,8 +202,7 @@ export default {
         {
           title: "A Node.js Weather App",
           year: 2020,
-          info:
-            "A weather app built with Node.js and Express.js using weather data from Open Weather and geocoding data from Mapbox.",
+          info: "A weather app built with Node.js and Express.js using weather data from Open Weather and geocoding data from Mapbox.",
           tech: [
             "NodeJS",
             "Express",
@@ -221,8 +230,7 @@ export default {
         {
           title: "VueJS Deploy to gh-pages",
           year: 2020,
-          info:
-            "A shell script to automate the creation and deployment of a new VueJS project, with the project automatically hosted on Github Pages",
+          info: "A shell script to automate the creation and deployment of a new VueJS project, with the project automatically hosted on Github Pages",
           icons: ["Bash", "git"],
           tech: ["Bash", "git", "Shell Script"],
 
@@ -240,8 +248,7 @@ export default {
         {
           title: "Enhance an Existing Project",
           year: 2019,
-          info:
-            "Taking over an existing codebase to Fix bugs, write documentation, implement Jasmine unit tests and audit the performance of a someone else's codebase",
+          info: "Taking over an existing codebase to Fix bugs, write documentation, implement Jasmine unit tests and audit the performance of a someone else's codebase",
           icons: ["Jasmine", "HTML", "CSS"],
           tech: ["Jasmine", "documentation.js"],
           url: {
@@ -262,8 +269,7 @@ export default {
         {
           title: "Food Delivery Database",
           year: 2019,
-          info:
-            "A technical database solution for a food delivery company designed in UML and created using MySQL",
+          info: "A technical database solution for a food delivery company designed in UML and created using MySQL",
           icons: ["MySQL"],
           tech: ["MySQL", "UML Diagrams"],
           url: {
@@ -277,16 +283,14 @@ export default {
             },
             {
               name: "UML Diagram",
-              url:
-                "https://github.com/mint-made/food-delivery-database/blob/master/UML-diagram.pdf",
+              url: "https://github.com/mint-made/food-delivery-database/blob/master/UML-diagram.pdf",
             },
           ],
         },
         {
           title: "Watch it Outside",
           year: 2019,
-          info:
-            "A film festival website built to technical specification using Bootstrap for a mock client",
+          info: "A film festival website built to technical specification using Bootstrap for a mock client",
           icons: ["Bootstrap", "HTML", "SASS"],
           tech: ["Bootstrap"],
           url: {
@@ -307,8 +311,7 @@ export default {
         {
           title: "The Vikings - turn-based board game",
           year: 2018,
-          info:
-            "A two player turn-based board game with a medieval Vikings theme built using plain JavaScript and jQuery for animations ",
+          info: "A two player turn-based board game with a medieval Vikings theme built using plain JavaScript and jQuery for animations ",
           icons: ["Bootstrap", "JavaScript", "jQuery"],
           tech: ["Bootstrap", "jQuery"],
           url: {
